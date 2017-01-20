@@ -19,4 +19,4 @@ before_install:
  
  - echo $PWD
 
-script: echo lua/test.lua | gluac
+script: ./runtests.sh
