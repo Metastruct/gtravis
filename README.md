@@ -1,2 +1,3 @@
-# gtravis
-Garry's Mod Travis CI test
+# Garry's Mod CI Syntax Checker
+
+Check for non compiling syntax in pull requests
