@@ -5,7 +5,8 @@ language: c
 addons:
   apt:
     packages:
-    - ia32-libs
+    - libc6:i386
+    - libstdc++6:i386
     
 before_install:
  # Download the SDK
