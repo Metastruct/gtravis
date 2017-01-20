@@ -19,4 +19,4 @@ before_install:
  
  - echo $PWD
 
-script: ./runtests.sh
+script: find lua/ -iname '*.lua' -print0 | xargs -0 gluac -p --
