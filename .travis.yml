@@ -6,7 +6,6 @@ addons:
   apt:
     packages:
     - ia32-libs
-    - ia32-libs-multiarch
     
 before_install:
  # Download the SDK
